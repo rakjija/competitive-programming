@@ -1,5 +1,6 @@
 def Sum(s, e):
   sum = 0
+  
   for i in range(s, e + 1):
     sum += i
 
