@@ -1,1 +1,1 @@
-# Competitive Programming
+# competitive_programming
