@@ -1,14 +1,11 @@
 import sys
 
-X = int(input())
-N = int(input())
+X = int(sys.stdin.readline().strip())
+N = int(sys.stdin.readline().strip())
 
-price = []
+total = 0
 for _ in range(N):
-    [a, b] = map(int, sys.stdin.readline().split())
-    price.append(a * b)
+    [a, b] = map(int, sys.stdin.readline().strip().split())
+    total += a * b
 
-if sum(price) == X:
-    print("Yes")
-else:
-    print("No")
+print("Yes" if total == X else "No")
