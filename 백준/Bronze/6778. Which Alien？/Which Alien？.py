@@ -1,8 +1,5 @@
 import sys
 
-# a >= 3 e <= 4
-#
-
 antenna = int(sys.stdin.readline())
 eye = int(sys.stdin.readline())
 
