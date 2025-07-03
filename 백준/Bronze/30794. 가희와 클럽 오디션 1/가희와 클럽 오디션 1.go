@@ -17,6 +17,6 @@ func main() {
 	var judge string
 	fmt.Scanf("%d %s", &lv, &judge)
 
-	score, _ := judgeScore[judge]
+	score := judgeScore[judge]
 	fmt.Println(lv * score)
 }
